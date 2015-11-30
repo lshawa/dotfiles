@@ -49,8 +49,7 @@ plugins=(rails git ruby common-aliases gem nyan osx wd brew tmux sudo)
 
 # User configuration
 
-export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/josephndenton/.rvm/bin:/Users/jdenton/Library/Android/sdk/platform-tools:/Users/jdenton/Library/Android/sdk/tools"
-# export MANPATH="/usr/local/man:$MANPATH"
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$HOME/.rvm/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -80,5 +79,3 @@ source resty
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
